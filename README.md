@@ -39,7 +39,7 @@ reference sentence based on n-gram matching, aiming to handle the training data 
 * (Optional) numba == 0.56.2
 
 ### Installation
-* ``git clone --recurse-submodules https://github.com/ictnlp/FA-DAT.git``
+* ``git clone --recurse-submodules https://github.com/DaoTranbk/EA-DAT.git``
 * ``cd FA-DAT && pip install -e .``
 
 

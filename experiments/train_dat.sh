@@ -1,7 +1,7 @@
 data_name=iwslt14
 data_dir=data-bin/iwslt14.tokenized.de-en
 arch=glat_decomposed_link_small
-checkpoint_dir=/cm/archive/quannt40/Diffu-DAT/checkpoints/$data_name"_"$arch
+checkpoint_dir=/cm/archive/daotc2/EA-DAT/checkpoints/$data_name"_"$arch
 
 
 CUDA_VISIBLE_DEVICES=5 fairseq-train ${data_dir}  \
@@ -33,4 +33,4 @@ CUDA_VISIBLE_DEVICES=5 fairseq-train ${data_dir}  \
     --keep-best-checkpoints 5 --save-dir ${checkpoint_dir} \
     --keep-interval-updates 5 --keep-last-epochs 5 \
     --log-format 'simple' --log-interval 100 \
-    --wandb-project Diffu-DAT
+    --wandb-project EA-DAT
