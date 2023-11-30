@@ -74,7 +74,7 @@ def main(cfg: FairseqConfig) -> None:
     logger.info(cfg)
     if cfg.common.wandb_project is not None:
         import wandb
-        wandb.login(key='74ac7eba00fea7e805a70861a86c7767406946c9')
+        wandb.login(key='3e4c5dc2627747024432dc57fa1c85c09eea6a20')
     if cfg.checkpoint.write_checkpoints_asynchronously:
         try:
             import iopath  # noqa: F401
